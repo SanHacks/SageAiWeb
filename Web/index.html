@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sage - Talk to OpenAi GPT with Voice, Text and Output Voice, Text, and Image</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!--icon -->
+    <link rel="icon" href="img/logo.png">
+    <style>
+        .parallax-section {
+            height: 100vh;
+            background: url('/img/showcase.png') center center no-repeat fixed;
+            background-size: cover;
+        }
+
+        .parallax-inner {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .features-section img {
+            max-width: 100%;
+        }
+
+        .pricing-section .card {
+            border:none;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .pricing-section .card:hover {
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .btn-cyberpunk {
+            color: #fff;
+            background-color: #2cbac9;
+            border-color: #2cbac9;
+        }
+
+        .btn-outline-cyberpunk {
+            color: #2cbac9;
+            border-color: #2cbac9;
+            background-color: transparent;
+        }
+
+        .btn-cyberpunk:hover,
+        .btn-outline-cyberpunk:hover {
+            color: #fff;
+            background-color: #1d808f;
+            border-color: #1d808f;
+        }
+
+        .navbar-cyberpunk {
+            background-color: #1d1d1d;
+        }
+
+        .navbar-cyberpunk .navbar-brand,
+        .navbar-cyberpunk .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-cyberpunk .navbar-brand:hover,
+        .navbar-cyberpunk .navbar-nav .nav-link:hover {
+            color: #2cbac9;
+        }
+
+        .footer-section {
+            background-color: #1d1d1d;
+            color: #fff;
+            padding: 3rem 0;
+        }
+
+        .footer-section p {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 768px) {
+            .parallax-section {
+                height: 50vh;
+            }
+
+            .parallax-inner {
+                height: 50vh;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Sage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Parallax Section -->
+<section class="parallax-section">
+    <div class="parallax-inner">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h1 class="display-3 mb-4">Sage</h1>
+                    <p class="lead mb-5">Talk to OpenAi GPT with Voice, Text and Output Voice, Text, and Image</p>
+                    <a href="#" class="btn btn-lg btn-outline-light">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="img/logo.png" alt="Sage App Screenshot" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2 class="mb-4">Features</h2>
+                <ul class="list-unstyled mb-5">
+                    <li><i class="fa fa-check"></i> Voice Input</li>
+                    <li><i class="fa fa-check"></i> Text Input</li>
+                    <li><i class="fa fa-check"></i> Output Voice, Text, and Image</li>
+                    <li><i class="fa fa-check"></i> Cross-Platform Application</li>
+                </ul>
+                <a href="/download" class="btn btn-lg btn-cyberpunk">Download App</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pricing Section -->
+<section class="pricing-section">
+    <div class="container">
+        <h2 class="mb-4 text-center">Pricing</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <h4 class="card-title mb-4">Free</h4>
+                        <p class="card-text mb-4"><strong>R0</strong>/month</p>
+                        <ul class="list-unstyled mb-4">
+                            <li>Basic Features</li>
+                            <li>5 Requests per Day</li>
+                            <li>Limited Support</li>
+                        </ul>
+                        <a href="/join" class="btn btn-lg btn-outline-cyberpunk">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <h4 class="card-title mb-4">Pro</h4>
+                        <p class="card-text mb-4"><strong>R29</strong>/month</p>
+                        <ul class="list-unstyled mb-4">
+                            <li>All Features</li>
+                            <li>Unlimited Requests</li>
+                            <li>Premium Support</li>
+                        </ul>
+                        <a href="/join" class="btn btn-lg btn-cyberpunk">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body text-center">
+                        <h4 class="card-title mb-4">Enterprise</h4>
+                        <p class="card-text mb-4"><strong>Contact</strong> for Pricing</p>
+                        <ul class="list-unstyled mb-4">
+                            <li>All Features</li>
+                            <li>Customized Solutions</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-lg btn-outline-cyberpunk">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <div class="container">
+        <p class="text-center">&copy; 2023 Sage. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="platform.js"></script>
