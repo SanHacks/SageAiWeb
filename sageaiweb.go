@@ -98,5 +98,6 @@ func templates() (*template.Template, *template.Template, *template.Template) {
 	//orderSuccess := template.Must(template.ParseFiles("frontend/orderSuccess.html"))
 	joinPlatform := template.Must(template.ParseFiles("Web/signup.html"))
 	loginPlatform := template.Must(template.ParseFiles("Web/login.html"))
+	//loginPanek := template.Must(template.ParseFiles("Web/loginPanel.html"))
 	return joinPlatform, loginPlatform, platform
 }
